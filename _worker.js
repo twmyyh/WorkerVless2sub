@@ -5,13 +5,13 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	//'icook.tw:2053#官方优选域名',
+	//'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -20,6 +20,71 @@ let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
+	'icook.tw:2053#优选官方',
+	'cloudflare.cfgo.cc:8443#优选官方',
+	'icook.hk:8443#香优选官方',
+	'cfip.xxxxxxxx.tk#官方优选-otc提供',
+	'hk.100366.xyz#香港',
+	'ali.055500.xyz#香港',
+	'cf.090227.xyz:2087#cm',
+	'cdn-b100.xn--b6gac.eu.org',
+	'cdn-b100.xn--b6gac.eu.org',
+	'japan.com',
+	'ip.sb',
+	'russia.com',
+	'singapore.com',
+	'443.xiangmq1969.xyz',
+	'toy-people.com',
+	'www.whoer.net',
+	'cdn.shanggan.pp.ua',
+	'dnschecker.org',
+	'hk.100366.xyz',
+	'malaysia.com',
+	'www.shopify.com',
+	'www.ipchicken.com',
+	'download.yunzhongzhuan.com',
+	'www.visa.com',
+	'www.iplocation.net',
+	'www.csgo.com',
+	'icook.tw',
+	'www.visa.com.sg',
+	'www.digitalocean.com',
+	'tasteatlas.com',
+	'www.4chan.org',
+	'www.gov.ua',
+	'edtunnel-dgp.pages.dev',
+	'www.visa.com.tw',
+	'www.visa.com.hk',
+	'www.whatismyip.com',
+	'www.visa.co.jp',
+	'fbi.gov',
+	'skk.moe',
+	'log.bpminecraft.com',
+	'www.pcmag.com',
+	'comicabc.com',
+	'www.ipaddress.my',
+	'www.who.int',
+	'alejandracaiccedo.com',
+	'time.cloudflare.com',
+	'whatismyipaddress.com',
+	'www.baipiao.eu.org',
+	'www.glassdoor.com',
+	'www.wto.org',
+	'xn--b6gac.eu.org',
+	'www.iakeys.com',
+	'www.sean-now.com',
+	'steamdb.info',
+	'www.okcupid.com',
+	'cf.000714.xyz',
+	'www.yecaoyun.com',
+	'www.iios.club',
+	'hk.zh141.com',
+	'tw.zh141.com',
+	'tw.zh141.com',
+	'www.hugedomains.com',
+	'www.haijiao.com',
+	'www.705ee.com',
+	'www.108kav.com',
 ];
 
 // 设置优选noTLS地址api接口
