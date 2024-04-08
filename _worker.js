@@ -5,8 +5,8 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	//'icook.tw:2053#官方优选域名',
+	//'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
@@ -20,11 +20,52 @@ let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
+	'icook.hk:8080#优选官方域名',
+        'ip.sb:8080#优选官方域名',
+        'japan.com:8080#优选官方域名',
+        'skk.moe:8080#优选官方域名',
+        'www.visa.com:8080#优选官方域名',
+        'www.visa.co.jp:8080#优选官方域名',
+        'www.visakorea.com:8080#优选官方域名',
+        'www.gco.gov.qa:8080#优选官方域名',
+        'www.csgo.com:8080#优选官方域名',
+        'www.whatismyip.com:8080#优选官方域名',
+        'gamer.com.tw:8080#优选官方域名',
+        'steamdb.info:8080#优选官方域名',
+        'toy-people.com:8080#优选官方域名',
+        'silkbook.com:8080#优选官方域名',
+        'cdn.anycast.eu.org:8080#优选官方域名',
+        'shopify.com:8080#优选官方域名',
+        'www.visa.com.tw:8080#优选官方域名',
+        'time.is:8080#优选官方域名',
+        'www.hugedomains.com:8080#优选官方域名',
+        'www.visa.com.sg:8080#优选官方域名',
+        'www.whoer.net:8080#优选官方域名',
+        'www.visa.com.hk:8080#优选官方域名',
+        'malaysia.com:8080#优选官方域名',
+        'www.ipget.net:8080#优选官方域名',
+        'icook.tw:8080#优选官方域名',
+        'www.gov.ua:8080#优选官方域名',
+        'www.udacity.com:8080#优选官方域名',
+        'www.shopify.com:8080#优选官方域名',
+        'singapore.com:8080#优选官方域名',
+        'russia.com:8080#优选官方域名',
+        'www.4chan.org:8080#优选官方域名',
+        'www.glassdoor.com:8080#优选官方域名',
+        'xn--b6gac.eu.org:8080#优选官方域名',
+        'www.digitalocean.com:8080#优选官方域名',
+        'www.udemy.com:8080#优选官方域名',
+        'cdn-all.xn--b6gac.eu.org:8080#优选官方域名',
+        'dnschecker.org:8080#优选官方域名',
+        'tasteatlas.com:8080#优选官方域名',
+        'pixiv.net:8080#优选官方域名',
+        'comicabc.com:8080#优选官方域名',
+        'cfip.xxxxxxxx.tk:8080#优选官方域名',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
