@@ -11,48 +11,17 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
+	'https://raw.githubusercontent.com/ymyuuu/IPDB/main/bestproxy.txt',
+	'https://raw.githubusercontent.com/ymyuuu/IPDB/main/bestcf.txt',
+	'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/ct',//可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
-	'ip.sb:8080#优选官方域名',
-        'japan.com:8080#优选官方域名',
-        'skk.moe:8080#优选官方域名',
-        'www.visa.com:8080#优选官方域名',
-        'www.visa.co.jp:8080#优选官方域名',
-        'www.visakorea.com:8080#优选官方域名',
-        'www.gco.gov.qa:8080#优选官方域名',
-        'www.csgo.com:8080#优选官方域名',
-        'www.whatismyip.com:8080#优选官方域名',
-        'steamdb.info:8080#优选官方域名',
-        'toy-people.com:8080#优选官方域名',
-        'shopify.com:8080#优选官方域名',
-        'www.visa.com.tw:8080#优选官方域名',
-        'www.visa.com.sg:8080#优选官方域名',
-        'www.whoer.net:8080#优选官方域名',
-        'www.visa.com.hk:8080#优选官方域名',
-        'malaysia.com:8080#优选官方域名',
-        'www.ipget.net:8080#优选官方域名',
-        'icook.tw:8080#优选官方域名',
-        'www.gov.ua:8080#优选官方域名',
-        'www.udacity.com:8080#优选官方域名',
-        'www.shopify.com:8080#优选官方域名',
-        'singapore.com:8080#优选官方域名',
-        'russia.com:8080#优选官方域名',
-        'www.4chan.org:8080#优选官方域名',
-        'www.glassdoor.com:8080#优选官方域名',
-        'xn--b6gac.eu.org:8080#优选官方域名',
-        'www.digitalocean.com:8080#优选官方域名',
-        'www.udemy.com:8080#优选官方域名',
-        'dnschecker.org:8080#优选官方域名',
-        'tasteatlas.com:8080#优选官方域名',
-        'comicabc.com:8080#优选官方域名',
-        'cfip.xxxxxxxx.tk:8080#优选官方域名',
+	//'www.visa.com.sg#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
